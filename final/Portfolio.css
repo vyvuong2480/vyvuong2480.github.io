@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	background-image: url(header1.png);
+	background-size: 1600px;
+	background-position: top;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 500px;
+	color: white;
+	padding: 300px 0px 0px 0px;
+}
+#header h1{
+	font-size: 95px;
+}
+#header i{
+	padding: 10px;
+}
+#header i:hover{
+	color:#F0B725;
+}
+#scroll{
+	color: white;
+	font-size: 40px;
+	padding-top: 100px;
+}
+#intro{
+	text-align: center;
+	padding: 50px;
+	height: 530px;
+}
+#pfp{
+	float: left;
+	padding: 10px 50px 10px 180px;
+}
+#pfp img{
+	width: 500px;
+}
+#about{
+	padding: 200px 30px 0px 50px;
+}
+#about h2{
+	color:#303268;
+	padding: 20px;
+	font-size: 30px;
+}
+#profession{
+	background: #303268;
+	height: 300px;
+	color: white;
+}
+#profession h2{
+	padding: 15px;
+}
+#artist{
+	padding: 50px 80px 50px 340px;
+	float: left;
+	text-align: center;
+}
+#artist i{
+	font-size: 35px;
+	padding: 20px;
+}
+#character{
+	padding: 50px 80px 50px 50px;
+	float: left;
+	text-align: center;
+}
+#character i{
+	font-size: 35px;
+	padding: 20px;
+}
+#graphic{
+	padding: 50px 0px 50px 50px;
+	float: left;
+	text-align: center;
+}
+#graphic i{
+	font-size: 35px;
+	padding: 20px;
+}
+.title{
+	text-align: center;
+	padding: 60px 0px 30px 0px;
+}
+#portfolio{
+	text-align: center;
+	padding-top: 70px;
+}
+.image{
+	border: none;
+}
+.image:hover{
+	transition: all ease 0.3s;
+	box-shadow: 0px 15px 15px rgba(90,91,95,0.3);
+}
+#portfolio h2{
+	font-size: 30px;
+	color: #303268;
+	padding-bottom: 20px;
+}
+#illus_row1{
+	padding-bottom: 25px;
+}
+#doodle{
+	text-align: center;
+}
+#doodle_row1{
+	padding-bottom: 25px;
+}
+#doodle_row2{
+	padding-bottom: 25px;
+}
+#contact{
+	text-align: center;
+	padding: 50px;
+	height: 200px;
+	color: #303268;
+}
+#contact h2{
+	text-align: center;
+}
+#phone{
+	float:left;
+	color: #303268;
+	padding: 20px 100px 0px 320px;
+}
+#phone i{
+	font-size: 35px;
+	padding: 30px;
+}
+#location{
+	float: left;
+	color: #303268;
+	padding: 20px 80px 0px 50px;
+}
+#location i{
+	font-size: 35px;
+	padding: 30px;
+}
+#email{
+	float: left;
+	color: #303268;
+	padding: 20px 0px 0px 50px;
+}
+#email i{
+	font-size: 35px;
+	padding: 30px;
+}
+#footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 60px;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
+#movetop{
+  	display: block;
+  	position: fixed;
+  	bottom: 20px;
+  	right: 20px;
+  	z-index: 99;
+  	border: none;
+	height: 45px;
+	width: 45px;
+  	background-color: #F0B725;
+  	color: black;
+  	padding: 15px;
+  	border-radius: 10px;
+}
+
+#movetop:hover{
+  	background-color: black;
+	color: #F0B725;
+}
+[class*="col-"] {
+  width: 100%;
+}
+@media(max-width: 375px){
+#header{
+	background-size: 600px;
+	background-position: top center;
+	text-align: center;
+	width: 100%;
+	color: white;
+	padding: 0px;
+}
+#header h1{
+	padding-top: 60px; 
+	font-size: 45px;
+}
+#header i{
+	padding: 5px;
+}
+#header i:hover{
+	color:#F0B725;
+}
+	#pfp{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 0px;
+}
+#pfp img{
+	width: 300px;
+	height: 300px;
+}
+	#profession{
+	height: 700px;
+	color: white;
+}
+#profession h2{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 0px;
+}
+#artist{
+	padding:0px;
+	float: none;
+	text-align: center;
+}
+#artist i{
+	font-size: 25px;
+	padding-top: 40px;
+}
+#character{
+	padding-top: 20px;
+	float: none;
+	text-align: center;
+}
+#character i{
+	font-size: 25px;
+	padding-top: 40px;
+}
+#graphic{
+	padding-top: 10px;
+	float: none;
+	text-align: center;
+}
+#graphic i{
+	font-size: 25px;
+	padding-top: 40px;
+}
+.title{
+	text-align: center;
+	padding-top: 40px;
+}
+#portfolio{
+	text-align: center;
+	padding-top: 70px;
+}
+	#contact{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 0px;
+		height: 600px;
+}
+#phone{
+	padding-top: 40px;
+	float: none;
+	text-align: center;
+	padding-left: 35px;
+	padding-right: 0px;
+}
+#phone i{
+	font-size: 25px;
+	padding-top:0px;
+}
+#location{
+	padding-top: 40px;
+	float: none;
+	text-align: center;
+	padding-left: 35px;
+	padding-right: 0px;
+}
+#location i{
+	font-size: 25px;
+	padding-top:0px;
+}
+#email{
+	padding-top: 40px;
+	float: none;
+	text-align: center;
+	padding-left: 35px;
+	padding-right: 0px;
+}
+#email i{
+	font-size: 25px;
+	padding-top:0px;
+}
+}
